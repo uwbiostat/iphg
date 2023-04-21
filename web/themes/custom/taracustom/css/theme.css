@@ -1,0 +1,88 @@
+:root{
+  --purple: #4b2e83;
+  --color-primary: #85754d;
+  --color-primary-light: #e8e3d3;
+}
+
+.header{
+  background-color: var(--purple);
+
+}
+.header a,
+ul.main-menu > li a,
+.region-primary-menu .menu > li a,
+.footer
+ {
+ color: #fff;
+}
+
+
+#footer{
+  background: none;
+  background-color: var(--purple);
+  text-align: center;
+}
+
+#block-footer .footer-wordmark {
+    display: inline-block;
+    width: 335px;
+    background: url(../images/uw-sprite.svg) no-repeat 0 -434px transparent;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+#block-footer ul.footer-links li {
+  list-style: none;
+  display: inline-block;
+}
+
+#block-footer  ul.footer-links li a:after{
+  content: "/";
+  padding: 1.5em;
+}
+#block-footer  ul.footer-links li:last-child a:after{
+  content: none;
+}
+
+.footer li {
+  border-bottom: none;
+}
+
+.copyright{
+  color: #fff;
+  font-size: .8em;
+  margin-top: 15px;
+}
+.footer-sph a,
+.footer-sph a:visited,
+.footer-sph a:hover{
+ color: white;
+    font-size: 1.4em;
+    font-weight: 100;
+    font-family: serif;
+    top: -34px;
+    position: relative;
+}
+.site-name{
+ display: none;
+}
+.site-name_lg{
+ color: white;
+ font-family: 'Times New Roman"';
+ font-size: 2em;
+}
+
+.site-name_sm{
+ color: white;
+ font-family: 'Times New Roman"';
+ font-size: .8em;
+}
+
+#block-taracustom-site-branding{
+ float: left;
+ margin-right: 10px;
+}
+#block-titleblock{
+ float: right;
+}
+}

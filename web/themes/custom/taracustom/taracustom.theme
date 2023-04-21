@@ -1,0 +1,11 @@
+<?php 
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter for blocks.
+ */
+function taracustom_theme_suggestions_block_alter(&$suggestions, $variables) {
+  // Load theme suggestions for blocks from parent theme.  See https://www.drupal.org/docs/theming-drupal/creating-sub-themes
+  foreach ($suggestions as &$suggestion) {
+    $suggestion = str_replace('shaved_', 'fluffiness_', $suggestion);
+  }
+}

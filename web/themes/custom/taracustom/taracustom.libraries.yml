@@ -1,0 +1,10 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/theme.css: {}
+      css/taracustom.css: {}
+  header: true
+  dependencies:
+    - core/jquery
+    - core/drupal
