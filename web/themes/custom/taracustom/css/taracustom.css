@@ -1,0 +1,105 @@
+.view-profile-directory .faculty_profile_image_field {
+  float: left;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+.view-profile-directory .views-row .faculty_profile_image_field,
+.field--name-field-image{
+  width: 150px;
+  height: auto;
+  float: left;
+  margin: 0 0 1em 1em;
+}
+
+.faculty_profile_image_field img{
+ width: 125px;
+ height: auto;
+}
+
+
+.view-profile-directory div.faculty_profile_fields{
+ width: 30%;
+ float: left;
+ margin-bottom: 20px;
+}
+
+div.faculty_profile_aoi{
+ width: 30%;
+ float: left;
+ padding-left: 40px;
+}
+
+
+.view-profile-directory h2.faculty_profile_name {
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.view-profile-directory .views-row{
+ clear: left;
+ font-size: .9em;
+}
+.view-profile-directory h2 a{
+ color: #4B2E83;
+ text-decoration: none;
+}
+.view-profile-directory h2{
+ margin-bottom: 0px;
+ padding-bottom: 0px;
+ font-size: 1.7em;
+ border-bottom: 5px solid #ddd;
+ width: 80%;
+ margin-left: 150px; 
+}
+
+.view-profile-directory h2 a:hover{
+ text-decoration: underline;
+}
+.faculty_profile_aoi ul{
+ margin-top: 0px;
+ padding-left: 1em;
+}
+
+
+.page-node.node-type-faculty-profile h1{
+ display:none;
+}
+
+.node-type-faculty-profile .field--name-field-image{
+ float: left;
+}
+.faculty_profile_image_field img, .field--name-field-image img{
+ border-radius: 15px;
+}
+
+.group-section1{
+ float: left;
+ margin-left: 30px;
+}
+
+.node-type-faculty-profile .group-section2{
+ clear: left;
+}
+.node-type-faculty-profile .group-section2 .field{
+ margin-bottom: 1em;
+}
+
+div.student-profiles div.faculty_profile_fields,
+div.alumni-profiles div.faculty_profile_fields{
+ width: 45%;
+}
+div.student-profiles div.faculty_profile_fields p,
+div.alumni-profiles div.faculty_profile_fields p{
+ font-size: .95em;
+ padding-bottom: 1.5em;
+}
+div.student-profiles .faculty_profile_aoi,
+div.alumni-profiles .faculty_profile_aoi{
+ font-size: .95em;
+}
+
+.path-students .view-profile-directory div.faculty_profile_fields{
+ width: 50%;
+ font-size: .9em;
+}

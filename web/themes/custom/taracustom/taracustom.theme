@@ -9,3 +9,4 @@ function taracustom_theme_suggestions_block_alter(&$suggestions, $variables) {
     $suggestion = str_replace('shaved_', 'fluffiness_', $suggestion);
   }
 }
+
