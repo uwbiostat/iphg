@@ -18,7 +18,7 @@
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.3",
-        "drupal/anchor_link": "^2.6",
+        "drupal/anchor_link": "3.0.x-dev@dev",
         "drupal/core-composer-scaffold": "^10.0",
         "drupal/core-project-message": "^10.0",
         "drupal/core-recommended": "^10.0",
@@ -57,7 +57,7 @@
           },
           "drupal/anchor_link":{
             "Help anchor_link work with ckeditor5.  See www.drupal.org/project/anchor_link/issues/3206676": "https://www.drupal.org/files/issues/2023-04-28/anchor_link-ckeditor5-compatibility-3206676-55.patch"
-          },
+          }
         },
         "drupal-scaffold": {
             "locations": {
