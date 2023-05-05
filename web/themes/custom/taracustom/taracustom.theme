@@ -10,3 +10,10 @@ function taracustom_theme_suggestions_block_alter(&$suggestions, $variables) {
   }
 }
 
+function taracustom_preprocess_html(&$variables) {
+  // Add node ID to the body class.
+  $node = \Drupal::routeMatch()->getParameter('node');
+  if (is_object($node)) {
+    $variables['attributes']['class'][] = 'nid-' . $node->id();
+  }
+}
