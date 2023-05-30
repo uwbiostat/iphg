@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@600&display=swap');
+@font-face {
+  font-family: "Encode Sans Normal Regular";
+  src: url("/themes/custom/taracustom/uwfonts/fonts/EncodeSansNormal-400-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Encode Sans Normal Semi-Bold";
+  src: url("/themes/custom/taracustom/uwfonts/EncodeSansNormal-600-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+.header-top{
+ background-color: var(--purple);
+}
+
 :root {
   /* Theme Colors */
   /*was:
@@ -17,7 +34,7 @@
   --border: #dbdbd3;
   --shadow: 0 0 8px 1px #cccccc;
   --font-text: "Open Sans", sans-serif;
-  --font-heading: "Encode Sans Compressed", sans-serif;
+  --font-heading: "Encode Sans Normal Semi-Bold", "Open Sans", "Arial", sans-serif, "Arial", sans-serif;
 
   --purple: #4b2e83;
   --purple-link: #3c2ad1;
@@ -46,15 +63,16 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
   text-decoration: none!important;
 }
 
-.header{
-  background-color: var(--purple);
-}
-
 .header a,
 ul.main-menu > li a,
-.region-primary-menu .menu > li a,
+.region-primary-menu .menu > li a{
+ color: var(--purple);
+}
+
+
+
 .footer
- {
+{
  color: #fff;
 }
 
@@ -99,25 +117,29 @@ ul.main-menu > li a,
 .footer-sph a:visited,
 .footer-sph a:hover{
  color: white;
-    font-size: 1.4em;
-    font-weight: 100;
-    font-family: serif;
-    top: -34px;
-    position: relative;
+ font-size: 1.3em;
+ font-weight: 100;
+ font-family: "Encode Sans", "Open Sans", "Arial", sans-serif, "Arial", sans-serif;
+ top: -34px;
+ position: relative;
 }
 .site-name{
  display: none;
 }
-.site-name_lg{
+.site-name_lg a{
  color: white;
- font-family: 'Encode Sans', sans-serif;
- font-size: 1.9em;
+ font-family: "Encode Sans Normal Semi-Bold", "Open Sans", "Arial", sans-serif, "Arial", sans-serif;
+ font-size: 29px;
+ text-transform: uppercase;
+ letter-spacing: 1px;
 }
 
-.site-name_sm{
+.site-name_sm a{
  color: white;
- font-family: 'Encode Sans', sans-serif;
- font-size: 1em;
+ font-family: "Encode Sans Normal Semi-Bold", "Open Sans", "Arial", sans-serif, "Arial", sans-serif;
+ font-size: 18px;
+ text-transform: uppercase;
+ letter-spacing: 1px;
 }
 
 #block-taracustom-site-branding{
@@ -130,6 +152,8 @@ ul.main-menu > li a,
 
 .site-logo img {
   max-height: 80px;
+  position: relative;
+  top: 6px;
 }
 .footer a{
  color: white;

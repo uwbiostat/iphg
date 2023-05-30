@@ -13,6 +13,7 @@ regions:
   page_top: 'Page top'
   page_bottom: 'Page bottom'
   highlighted: Highlighted
+  graphictitle: 'Graphic Title'
   breadcrumb: Breadcrumb
   content: Content
   content_top: 'Content Top'
