@@ -17,3 +17,17 @@ function taracustom_preprocess_html(&$variables) {
     $variables['attributes']['class'][] = 'nid-' . $node->id();
   }
 }
+
+/**
+ * Implements hook_preprocess_page_title().
+ */
+function taracustom_preprocess_page_title(&$variables) {
+ $node = \Drupal::request()->attributes->get('node');
+ //dump($node);
+
+  //Change the name of profile pages to first last
+  if ($node && $node->bundle() == 'faculty_profile') {
+    $first = $node->get('field_faculty_first_name')->value;
+    $variables['title'] = t('@first @last', ['@first' => $first, '@last' => $node->getTitle()]);
+  }
+}
