@@ -28,7 +28,6 @@
         "drupal/imce": "^3.0",
         "drupal/menu_block": "^1.10",
         "drupal/pathauto": "^1.11",
-        "drupal/tamper": "^1.0@alpha",
         "drupal/toc_filter": "^2.1",
         "drush/drush": "^11.5"
     },
