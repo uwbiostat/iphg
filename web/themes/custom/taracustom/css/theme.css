@@ -258,3 +258,7 @@ ul.sidebar-submenu{
 #breadcrumb{
  background-color: var(--bg-body);
 }
+ul, ol{
+ margin: revert;
+ padding: revert;
+}

@@ -109,6 +109,10 @@ body.gin--classic-toolbar {
         mask-repeat: no-repeat;
         mask-position: center center;
         mask-size: var(--gin-icon-size-toolbar) var(--gin-icon-size-toolbar);
+
+        @media (forced-colors: active) {
+          background: linktext !important;
+        }
       }
 
       &.toolbar-icon-default::before {
@@ -352,6 +356,14 @@ body.gin--classic-toolbar {
     .toolbar-icon-workbench-content-tab {
       &:before {
         mask-image: icon('tool');
+      }
+    }
+  }
+
+  .toolbar-menu {
+    .toolbar-icon {
+      @include mq(medium) {
+        padding-right: var(--gin-spacing-l);
       }
     }
   }
@@ -622,6 +634,10 @@ body.gin--classic-toolbar {
 
 .toolbar.toolbar-secondary .toolbar-bar .toolbar-tab > .toolbar-icon::before {
   background-color: var(--gin-icon-color);
+
+  @media (forced-colors: active) {
+    background: linktext !important;
+  }
 }
 
 .toolbar.toolbar-secondary .toolbar-bar .toolbar-tab > .toolbar-icon.toolbar-icon-edit.toolbar-item::before {
@@ -641,7 +657,8 @@ body.gin--classic-toolbar {
   }
 }
 
-#toolbar-item-user {
+#toolbar-item-user,
+#toolbar-item-user-secondary {
   display: inline-block;
   vertical-align: top;
   min-width: unset;
@@ -711,6 +728,10 @@ body.gin--classic-toolbar {
     mask-image: icon('search');
     mask-size: 100% 100%;
     mask-position: center center;
+
+    @media (forced-colors: active) {
+      background-color: buttonBorder;
+    }
   }
 }
 
