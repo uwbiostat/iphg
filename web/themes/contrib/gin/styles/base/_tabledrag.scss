@@ -35,16 +35,16 @@
 .field--type-link,
 .field--type-smartdate {
   .gin-layer-wrapper > .tabledrag-toggle-weight-wrapper {
-    @include mq(small) {
+    @include mq(medium) {
       position: relative;
       z-index: 1;
-      margin-right: var(--gin-spacing-m);
       margin-bottom: calc(var(--gin-spacing-xxl) * -1);
       pointer-events: none;
     }
 
     .action-link {
       pointer-events: all;
+      background-color: var(--gin-bg-layer);
     }
   }
 }
@@ -105,11 +105,6 @@
   }
 }
 
-.tabledrag-leaf td,
-.tabledrag-cell {
-  vertical-align: top;
-}
-
 .tabledrag-cell {
   padding-top: var(--gin-spacing-density-m);
   padding-bottom: var(--gin-spacing-density-m);
@@ -117,12 +112,6 @@
   &-content {
     margin-top: var(--gin-spacing-xs);
     margin-bottom: var(--gin-spacing-xs);
-  }
-
-  &-content__item {
-    .checkbox-toggle:hover {
-      cursor: pointer;
-    }
   }
 }
 
