@@ -114,6 +114,7 @@ libraries-extend:
     - gin/webform
   webform_ui/webform_ui:
     - gin/webform
+    - gin/webform_ui
   webform/webform.element.help:
     - gin/webform
   webform/webform.element.details.toggle:
@@ -159,7 +160,7 @@ regions:
 regions_hidden:
   - sidebar_first
 
-# Information added by Drupal.org packaging script on 2024-06-28
-version: '8.x-3.0-rc12'
+# Information added by Drupal.org packaging script on 2024-07-08
+version: '8.x-3.0-rc13'
 project: 'gin'
-datestamp: 1719568771
+datestamp: 1720416346
