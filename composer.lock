@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6e40e476162b3439a98bfc7a4babb1d2",
+    "content-hash": "1162580674cfd4b231aa2e4fd7e70680",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1760,26 +1760,26 @@
         },
         {
             "name": "drupal/extlink",
-            "version": "1.7.0",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/extlink.git",
-                "reference": "8.x-1.7"
+                "reference": "2.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/extlink-8.x-1.7.zip",
-                "reference": "8.x-1.7",
-                "shasum": "38650688b5a58496db59f40b2a7f36c4bedcbfb4"
+                "url": "https://ftp.drupal.org/files/projects/extlink-2.0.2.zip",
+                "reference": "2.0.2",
+                "shasum": "a9bc7b451f8afd93f0decac97212424a6ec3147a"
             },
             "require": {
-                "drupal/core": "^8 || ^9 || ^10"
+                "drupal/core": "^10 || ^11"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.7",
-                    "datestamp": "1665770295",
+                    "version": "2.0.2",
+                    "datestamp": "1723478431",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2063,26 +2063,26 @@
         },
         {
             "name": "drupal/node_title_help_text",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/node_title_help_text.git",
-                "reference": "8.x-1.3"
+                "reference": "8.x-1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/node_title_help_text-8.x-1.3.zip",
-                "reference": "8.x-1.3",
-                "shasum": "c95c4e0c1745900235e25630ffbff460b1c33f17"
+                "url": "https://ftp.drupal.org/files/projects/node_title_help_text-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "d756fc4f3783abae03c1e6c99e0e228b01edb506"
             },
             "require": {
-                "drupal/core": "^8 || ^9 || ^10"
+                "drupal/core": "^8 || ^9 || ^10 || ^11"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.3",
-                    "datestamp": "1689741273",
+                    "version": "8.x-1.4",
+                    "datestamp": "1724759210",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
