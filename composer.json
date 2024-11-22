@@ -50,9 +50,6 @@
     },
     "extra": {
         "patches": {
-          "drupal/menu_block":{
-            "Provide option to always show menu parent in sidebar. see www.drupal.org/project/menu_block/issues/3082445": "https://www.drupal.org/files/issues/2022-11-08/menu_block-render-parent-3082445-53.patch"
-          }
         },
         "drupal-scaffold": {
             "locations": {
