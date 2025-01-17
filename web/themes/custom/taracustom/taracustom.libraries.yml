@@ -9,3 +9,4 @@ global-styling:
   dependencies:
     - core/jquery
     - core/drupal
+    - tarapro/global-styling
