@@ -1192,17 +1192,17 @@
         },
         {
             "name": "drupal/admin_toolbar",
-            "version": "3.5.3",
+            "version": "3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/admin_toolbar.git",
-                "reference": "3.5.3"
+                "reference": "3.6.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-3.5.3.zip",
-                "reference": "3.5.3",
-                "shasum": "363cdd6e6ca47983900f40793edf9a8b26f132bb"
+                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-3.6.0.zip",
+                "reference": "3.6.0",
+                "shasum": "ee03fd8e5394525f6e0aaf19db75624fbefc5b5d"
             },
             "require": {
                 "drupal/core": "^9.5 || ^10 || ^11"
@@ -1213,8 +1213,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "3.5.3",
-                    "datestamp": "1740156799",
+                    "version": "3.6.0",
+                    "datestamp": "1747981575",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2210,26 +2210,26 @@
         },
         {
             "name": "drupal/toc_api",
-            "version": "1.7.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/toc_api.git",
-                "reference": "8.x-1.7"
+                "reference": "2.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/toc_api-8.x-1.7.zip",
-                "reference": "8.x-1.7",
-                "shasum": "a6695fae12d6db5c4ca8f9f5ac73a3919039bc52"
+                "url": "https://ftp.drupal.org/files/projects/toc_api-2.0.0.zip",
+                "reference": "2.0.0",
+                "shasum": "48e0132a9ad84b9f9e1aa44507eac2b9d564a3f5"
             },
             "require": {
-                "drupal/core": "^9.4 || ^10.0"
+                "drupal/core": "^10.3 || ^11.0"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.7",
-                    "datestamp": "1738812755",
+                    "version": "2.0.0",
+                    "datestamp": "1743697492",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2245,6 +2245,10 @@
                     "name": "Jacob Rockowitz (jrockowitz)",
                     "homepage": "https://www.drupal.org/u/jrockowitz",
                     "role": "Maintainer"
+                },
+                {
+                    "name": "jrockowitz",
+                    "homepage": "https://www.drupal.org/user/371407"
                 },
                 {
                     "name": "vladimiraus",
@@ -2263,17 +2267,17 @@
         },
         {
             "name": "drupal/toc_filter",
-            "version": "2.3.0",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/toc_filter.git",
-                "reference": "8.x-2.3"
+                "reference": "8.x-2.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/toc_filter-8.x-2.3.zip",
-                "reference": "8.x-2.3",
-                "shasum": "d3147abcbca696ec05934a69d521b891b35e6209"
+                "url": "https://ftp.drupal.org/files/projects/toc_filter-8.x-2.4.zip",
+                "reference": "8.x-2.4",
+                "shasum": "986662a7226e8892b3eb332f02475603e9b9d940"
             },
             "require": {
                 "drupal/core": "^9.2 || ^10 || ^11",
@@ -2282,8 +2286,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.3",
-                    "datestamp": "1726109770",
+                    "version": "8.x-2.4",
+                    "datestamp": "1748176034",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
