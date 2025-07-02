@@ -1,0 +1,25 @@
+uuid: db04f026-be07-4209-97dd-e00e9b33428d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:84dc2835-0419-41a4-8ef1-c26e0c9d6d6f'
+  module:
+    - block_content
+  theme:
+    - taracustom
+id: footer
+theme: taracustom
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:84dc2835-0419-41a4-8ef1-c26e0c9d6d6f'
+settings:
+  id: 'block_content:84dc2835-0419-41a4-8ef1-c26e0c9d6d6f'
+  label: Footer
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

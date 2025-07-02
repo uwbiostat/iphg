@@ -1,0 +1,46 @@
+uuid: 0c553d45-be21-4595-b90a-4664c4318f20
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.faculty_profile.body
+    - field.field.node.faculty_profile.field_areas_of_interest
+    - field.field.node.faculty_profile.field_education
+    - field.field.node.faculty_profile.field_email_address
+    - field.field.node.faculty_profile.field_faculty_first_name
+    - field.field.node.faculty_profile.field_professional_title
+    - field.field.node.faculty_profile.field_profile_picture
+    - field.field.node.faculty_profile.field_profile_type
+    - field.field.node.faculty_profile.field_website
+    - node.type.faculty_profile
+  module:
+    - text
+    - user
+id: node.faculty_profile.teaser
+targetEntityType: node
+bundle: faculty_profile
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_areas_of_interest: true
+  field_education: true
+  field_email_address: true
+  field_faculty_first_name: true
+  field_professional_title: true
+  field_profile_picture: true
+  field_profile_type: true
+  field_website: true

@@ -1,0 +1,19 @@
+uuid: bc497dae-0e7a-4a1a-881f-e51bea68ea72
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_compensation_and_benefits
+field_name: field_compensation_and_benefits
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

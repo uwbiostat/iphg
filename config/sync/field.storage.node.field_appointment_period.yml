@@ -1,0 +1,20 @@
+uuid: 8ce4a94d-5ba8-4600-a88a-8a65083d0756
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime_range
+    - node
+id: node.field_appointment_period
+field_name: field_appointment_period
+entity_type: node
+type: daterange
+settings:
+  datetime_type: date
+module: datetime_range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

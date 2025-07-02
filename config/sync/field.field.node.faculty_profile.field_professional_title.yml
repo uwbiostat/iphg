@@ -1,0 +1,19 @@
+uuid: 668aca32-557c-493c-adf0-0459ff004539
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_professional_title
+    - node.type.faculty_profile
+id: node.faculty_profile.field_professional_title
+field_name: field_professional_title
+entity_type: node
+bundle: faculty_profile
+label: 'Professional Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

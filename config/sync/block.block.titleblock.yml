@@ -1,0 +1,25 @@
+uuid: e9659322-ca3c-4a80-b47e-48711586fabe
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:bac4cbc9-063d-44eb-8039-87c6cd1f16a6'
+  module:
+    - block_content
+  theme:
+    - taracustom
+id: titleblock
+theme: taracustom
+region: header_top
+weight: -7
+provider: null
+plugin: 'block_content:bac4cbc9-063d-44eb-8039-87c6cd1f16a6'
+settings:
+  id: 'block_content:bac4cbc9-063d-44eb-8039-87c6cd1f16a6'
+  label: 'Title block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

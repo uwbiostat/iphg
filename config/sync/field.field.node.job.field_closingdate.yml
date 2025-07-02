@@ -1,0 +1,21 @@
+uuid: fd04dbad-f6df-4a17-bb31-b8782a4884e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_closingdate
+    - node.type.job
+  module:
+    - datetime
+id: node.job.field_closingdate
+field_name: field_closingdate
+entity_type: node
+bundle: job
+label: 'Closing Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

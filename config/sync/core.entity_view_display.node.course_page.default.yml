@@ -1,0 +1,112 @@
+uuid: a2484141-7265-40a5-b86a-ec0a91d4bb07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.course_page.body
+    - field.field.node.course_page.field_alternate_course_number
+    - field.field.node.course_page.field_course_objectives
+    - field.field.node.course_page.field_credits
+    - field.field.node.course_page.field_example_syllabus
+    - field.field.node.course_page.field_fundamental_areas_of_study
+    - field.field.node.course_page.field_link_to_catalog_descriptio
+    - field.field.node.course_page.field_prerequisites
+    - field.field.node.course_page.field_quarter_offered
+    - field.field.node.course_page.field_short_course_name
+    - node.type.course_page
+  module:
+    - file
+    - link
+    - options
+    - text
+    - user
+id: node.course_page.default
+targetEntityType: node
+bundle: course_page
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_alternate_course_number:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_course_objectives:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_credits:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_example_syllabus:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_fundamental_areas_of_study:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 111
+    region: content
+  field_link_to_catalog_descriptio:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_prerequisites:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  field_quarter_offered:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_short_course_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

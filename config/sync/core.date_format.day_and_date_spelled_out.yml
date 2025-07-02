@@ -1,0 +1,8 @@
+uuid: 4543d1e3-c92b-4b99-83d1-9e22aa2d9e12
+langcode: en
+status: true
+dependencies: {  }
+id: day_and_date_spelled_out
+label: 'Day and Date spelled out'
+locked: false
+pattern: 'l, F d, Y'

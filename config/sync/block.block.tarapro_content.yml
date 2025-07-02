@@ -1,0 +1,22 @@
+uuid: 6a597e19-37c6-4c20-84b1-6980896962c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tarapro
+_core:
+  default_config_hash: a0Yyx1GeyKarZ4T_yXQBR_ZFKnXiFLtxAb6gWLd8nr0
+id: tarapro_content
+theme: tarapro
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

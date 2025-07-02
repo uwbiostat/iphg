@@ -1,0 +1,24 @@
+uuid: e9cdf59e-30fe-454d-b90d-10e769720b07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_specific_job_functions
+    - filter.format.basic_html
+    - node.type.job
+  module:
+    - text
+id: node.job.field_specific_job_functions
+field_name: field_specific_job_functions
+entity_type: node
+bundle: job
+label: 'Specific Job Functions'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

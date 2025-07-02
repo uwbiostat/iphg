@@ -1,0 +1,27 @@
+uuid: 4868c95e-6f88-46e6-9133-dfc87255e571
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_example_syllabus
+    - node.type.course_page
+  module:
+    - file
+id: node.course_page.field_example_syllabus
+field_name: field_example_syllabus
+entity_type: node
+bundle: course_page
+label: 'Example Syllabus'
+description: 'Specify the quarter and year of this syllabus.  Example "Autumn 2023".'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: courses/syllabus
+  file_extensions: 'txt pdf doc docx'
+  max_filesize: ''
+  description_field: true
+field_type: file

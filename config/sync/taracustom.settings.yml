@@ -1,0 +1,78 @@
+features:
+  node_user_picture: 0
+  comment_user_picture: 0
+  comment_user_verification: 0
+  favicon: 1
+logo:
+  use_default: 0
+  path: 'public://W-Logo_White_0_0.png'
+favicon:
+  use_default: 0
+  path: favicon.ico
+  mimetype: image/vnd.microsoft.icon
+all_icons_show: 1
+facebook_url: ''
+twitter_url: ''
+instagram_url: ''
+linkedin_url: ''
+youtube_url: ''
+vimeo_url: ''
+vk_url: ''
+whatsapp_url: ''
+github_url: ''
+telegram_url: ''
+slider_show: 1
+slider_image: {  }
+slider_time: '10'
+slider_dots: 'true'
+slider_code: "<div class=\"slider-item\">\r\n  <div class=\"slider-img\">\r\n    <img src=\"/sites/default/files/i-C5Wfv2M-X2_1.jpg\" alt=\"Image of F-wing courtesy of the School of Public Health\">\r\n  </div><!-- /.slider-img one -->\r\n  <div class=\"slider-text-container\"> \r\n    <div class=\"container\">\r\n      <div class=\"slider-text\"><br /><br /><br /><br /><br /><br /><br />\r\n        <h1 class=\"layer1\">Institute for Public Health Genetics</h1>\r\n        <h2 class=\"layer2\">Public Health Genetics is a dynamic and evolving field established to tackle the challenges of using genomic information to improve population health.</h2><br /><br />\r\n        <a class=\"button layer3\" href=\"/prospective-students/faq\">read more about us!</a>\r\n      </div><!-- /.slider-text -->         \r\n    </div><!-- /.container -->\r\n  </div><!-- /.slider-text-container -->\r\n</div>"
+front_sidebar: 0
+scrolltotop_on: 0
+copyright_text: 0
+css_extra: 0
+css_code: ''
+google_font: local
+bootstrapicons: 0
+comment_user_pic: 0
+node_author_pic: 0
+node_tags: 0
+social_icons_header_option: 0
+social_icons_footer_option: 0
+social_new_icon_code: ''
+slider_animatein: bounceIn
+slider_animateout: bounceOut
+slider_images:
+  - '104'
+  - '130'
+sticky_header_option: 0
+animated_sidebar_option: 0
+sticky_footer: 0
+copyright_text_custom: ''
+cookie_message: 0
+cookie_message_custom: ''
+insert_head: 0
+head_code: ''
+insert_body_start: 0
+body_start_code: ''
+insert_body_end: 0
+body_end_code: ''
+preloader_option: 0
+fontawesome_five: 0
+fontawesome_six: 0
+iconmonstr: 0
+material_icon: 0
+node_share_page: 0
+node_share_article: 0
+node_share_other: 0
+node_share_front: 0
+color_scheme: color_default
+bg_body: '#000000'
+bg_header: '#000000'
+color_primary: '#4b2e83'
+color_primary_light: '#000000'
+color_secondary: '#000000'
+color_dark: '#000000'
+color_light: '#000000'
+color_border: '#000000'
+color_text: '#000000'
+color_heading: '#000000'

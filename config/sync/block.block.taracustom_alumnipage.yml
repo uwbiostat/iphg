@@ -1,0 +1,30 @@
+uuid: a22f1256-8ac0-46b9-bbde-813d5a491c21
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4590cd1d-67e8-4b79-a6df-2285128918ce'
+  module:
+    - block_content
+    - system
+  theme:
+    - taracustom
+id: taracustom_alumnipage
+theme: taracustom
+region: content_top
+weight: 0
+provider: null
+plugin: 'block_content:4590cd1d-67e8-4b79-a6df-2285128918ce'
+settings:
+  id: 'block_content:4590cd1d-67e8-4b79-a6df-2285128918ce'
+  label: 'Alumni page'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /alumni

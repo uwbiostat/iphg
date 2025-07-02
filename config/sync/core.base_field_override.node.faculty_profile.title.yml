@@ -1,0 +1,18 @@
+uuid: cf0539bd-c6aa-462e-bc69-3a084609ec6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.faculty_profile
+id: node.faculty_profile.title
+field_name: title
+entity_type: node
+bundle: faculty_profile
+label: 'Last Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,24 @@
+uuid: 43c84bdc-7aa4-42ab-a436-b6e567b0c7d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_compensation_and_benefits
+    - filter.format.basic_html
+    - node.type.job
+  module:
+    - text
+id: node.job.field_compensation_and_benefits
+field_name: field_compensation_and_benefits
+entity_type: node
+bundle: job
+label: 'Compensation and benefits'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

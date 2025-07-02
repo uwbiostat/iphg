@@ -1,0 +1,24 @@
+uuid: 138931a5-7f1d-4b02-b517-b3fabf48498d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_preferred_qualifications
+    - filter.format.basic_html
+    - node.type.job
+  module:
+    - text
+id: node.job.field_preferred_qualifications
+field_name: field_preferred_qualifications
+entity_type: node
+bundle: job
+label: 'Preferred qualifications'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

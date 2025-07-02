@@ -1,0 +1,19 @@
+uuid: cf398e2f-6e2b-4a30-9590-7358794e86f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fte
+    - node.type.job
+id: node.job.field_fte
+field_name: field_fte
+entity_type: node
+bundle: job
+label: FTE
+description: 'Example: 25%'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

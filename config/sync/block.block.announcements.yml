@@ -1,0 +1,30 @@
+uuid: 84d2f90c-aaac-4cfb-9708-9c4dff11ced1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:447b71a3-c303-4c76-a2f3-8f4fc4956144'
+  module:
+    - block_content
+    - system
+  theme:
+    - taracustom
+id: announcements
+theme: taracustom
+region: sidebar_second
+weight: -5
+provider: null
+plugin: 'block_content:447b71a3-c303-4c76-a2f3-8f4fc4956144'
+settings:
+  id: 'block_content:447b71a3-c303-4c76-a2f3-8f4fc4956144'
+  label: Announcements
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home

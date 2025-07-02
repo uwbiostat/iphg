@@ -1,0 +1,24 @@
+uuid: f2e6bebf-ef6c-473a-a233-bb13f4c5d187
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_how_to_apply
+    - filter.format.basic_html
+    - node.type.job
+  module:
+    - text
+id: node.job.field_how_to_apply
+field_name: field_how_to_apply
+entity_type: node
+bundle: job
+label: 'How to apply'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

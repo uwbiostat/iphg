@@ -1,0 +1,18 @@
+uuid: 764d6e71-a6d5-4f84-82e0-6875cbd62dec
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:menu_link_content:c50f0399-dccd-4007-8fd7-bd7d8fe5c6e0'
+name: 'Course Page'
+type: course_page
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

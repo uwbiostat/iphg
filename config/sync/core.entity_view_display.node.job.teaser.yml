@@ -1,0 +1,48 @@
+uuid: b22ae470-b056-41ff-8bb1-e9571be3fb08
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.job.body
+    - field.field.node.job.field_additional_information
+    - field.field.node.job.field_appointment_period
+    - field.field.node.job.field_closingdate
+    - field.field.node.job.field_compensation_and_benefits
+    - field.field.node.job.field_fte
+    - field.field.node.job.field_how_to_apply
+    - field.field.node.job.field_preferred_qualifications
+    - field.field.node.job.field_required_qualifications
+    - field.field.node.job.field_specific_job_functions
+    - node.type.job
+  module:
+    - text
+    - user
+id: node.job.teaser
+targetEntityType: node
+bundle: job
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_additional_information: true
+  field_appointment_period: true
+  field_closingdate: true
+  field_compensation_and_benefits: true
+  field_fte: true
+  field_how_to_apply: true
+  field_preferred_qualifications: true
+  field_required_qualifications: true
+  field_specific_job_functions: true

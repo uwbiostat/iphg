@@ -1,0 +1,22 @@
+uuid: f340f6f3-c87c-4f72-9ebf-3b71b5ef62ba
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - tarapro
+_core:
+  default_config_hash: jccFSSVqV0WCDb6NtML1VWAWTtDbZ-zn5YgTRMgMrIM
+id: tarapro_help
+theme: tarapro
+region: header_top
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

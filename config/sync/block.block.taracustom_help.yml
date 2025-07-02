@@ -1,0 +1,22 @@
+uuid: a10780ce-ecfe-48b9-ad60-396a107b5220
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - taracustom
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: taracustom_help
+theme: taracustom
+region: content
+weight: -9
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

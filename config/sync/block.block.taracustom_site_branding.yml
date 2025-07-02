@@ -1,0 +1,25 @@
+uuid: 169eaba3-da9d-42b1-8a4c-4270f48e16b6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - taracustom
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: taracustom_site_branding
+theme: taracustom
+region: header_top
+weight: -8
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

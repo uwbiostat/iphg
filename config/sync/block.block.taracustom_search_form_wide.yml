@@ -1,0 +1,23 @@
+uuid: 0e561c28-2056-4d5e-b4e1-682ba50a3db5
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - taracustom
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: taracustom_search_form_wide
+theme: taracustom
+region: search_box
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

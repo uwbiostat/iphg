@@ -1,0 +1,23 @@
+uuid: 9404862d-eb18-41b8-af26-505de73e2dc0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_to_catalog_descriptio
+    - node.type.course_page
+  module:
+    - link
+id: node.course_page.field_link_to_catalog_descriptio
+field_name: field_link_to_catalog_descriptio
+entity_type: node
+bundle: course_page
+label: 'Link to Catalog Description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 17
+field_type: link

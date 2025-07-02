@@ -1,0 +1,27 @@
+uuid: 2dcfdb76-d1da-44bf-878b-c0049868fc41
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_fundamental_areas_of_study
+field_name: field_fundamental_areas_of_study
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: HG
+      label: 'Human Genetics'
+    -
+      value: PH
+      label: 'Public Health'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

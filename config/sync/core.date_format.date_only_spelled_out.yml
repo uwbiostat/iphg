@@ -1,0 +1,8 @@
+uuid: 4bbbec64-0d59-4835-a361-cdc93529d101
+langcode: en
+status: true
+dependencies: {  }
+id: date_only_spelled_out
+label: 'Date only spelled out'
+locked: false
+pattern: 'M d, Y'

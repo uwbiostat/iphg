@@ -1,0 +1,21 @@
+uuid: d506e66b-10cb-47f9-97a5-3afc4df228c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - node_title_help_text
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  node_title_help_text:
+    title_help: "Format: Job Title, Qtr - Class<br />\r\nExample: Teaching Assistant (TA), Autumn 2023 - PHG 512/GCNSL 512/BH 514/LAW 504"
+name: Job
+type: job
+description: 'Use this to post job openings'
+help: null
+new_revision: true
+preview_mode: 0
+display_submitted: false

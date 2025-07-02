@@ -1,0 +1,8 @@
+uuid: a077365c-e164-48fa-a52f-a5dc7400735f
+langcode: en
+status: true
+dependencies: {  }
+id: shorter_yet
+label: 'Shorter Yet'
+locked: false
+pattern: m/d/Y

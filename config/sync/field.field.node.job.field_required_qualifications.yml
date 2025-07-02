@@ -1,0 +1,24 @@
+uuid: 9e7c687f-735d-4e89-bf7f-698cf6bc6956
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_required_qualifications
+    - filter.format.basic_html
+    - node.type.job
+  module:
+    - text
+id: node.job.field_required_qualifications
+field_name: field_required_qualifications
+entity_type: node
+bundle: job
+label: 'Required qualifications'
+description: 'Example: Full-time enrollment in a UW graduate degree program (minimum 10 credits)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

@@ -1,0 +1,27 @@
+uuid: b4dca4c8-93a3-4c13-bac2-ebde4b7d3ece
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_additional_information
+    - filter.format.basic_html
+    - node.type.job
+  module:
+    - text
+id: node.job.field_additional_information
+field_name: field_additional_information
+entity_type: node
+bundle: job
+label: 'Additional Information'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '<p>Note: Compensation rates and tuition and course fee details above assume a quarterly FTE level of 50% across all Academic Student Employee (ASE) appointments. If a student''s quarterly FTE level is less than 50%, then they may be required to receive a higher salary rate while paying tuition or course fees out-of-pocket. Compensation details may also be affected by other concurrent appointments, such as fellowships, training grant appointments, and other stipends. Please contact your home department to understand your particular circumstances.</p><p>International students working more than 50% FTE will be required to secure CPT approval prior to beginning a position. See details <a href="https://iss.washington.edu/work/f1-employment/cpt/">here</a>.</p><p>This appointment classifies you as an Academic Student Employee (ASE) and is governed by a collective bargaining agreement between the University of Washington and UAW Local 4121, which is found at the following website:&nbsp; For more information regarding the UAW Local 4121 please visit their web site at:&nbsp;<a href="https://urldefense.com/v3/__http:/www.uaw4121.org/__;!!K-Hz7m0Vt54!j42EUssEJYjiyr-4RblNXZ2XUp2MXGIDn9WEylWrYd17zb8UMBDj2rrDDCfW9Fc7sTgcSIiDxv2LXmE$">http://www.uaw4121.org</a>.</p><p>The University of Washington is an equal opportunity, affirmative action employer. To request disability accommodation, contact the Disability Services Office at 206-543-6450 / 206-543-6452 (tty) or&nbsp;<a href="mailto:dso@uw.edu">dso@uw.edu</a>.</p><p>If you have questions about this position, please contact the Institute for Public Health Genetics at <a href="mailto:phginfo@uw.edu">phginfo@uw.edu</a>.</p>'
+    format: basic_html
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

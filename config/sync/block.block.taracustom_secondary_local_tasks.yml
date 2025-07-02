@@ -1,0 +1,22 @@
+uuid: 11cf6653-3117-475b-b7c3-72d0d6d30a54
+langcode: en
+status: true
+dependencies:
+  theme:
+    - taracustom
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: taracustom_secondary_local_tasks
+theme: taracustom
+region: highlighted
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

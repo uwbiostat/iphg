@@ -1,0 +1,19 @@
+uuid: 2aa89420-828d-4d85-9766-0c9d47317f64
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_specific_job_functions
+field_name: field_specific_job_functions
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

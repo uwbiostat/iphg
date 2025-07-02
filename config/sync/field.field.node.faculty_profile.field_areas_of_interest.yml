@@ -1,0 +1,19 @@
+uuid: f6bbe015-15e1-4a07-8e10-e9523d3335ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_areas_of_interest
+    - node.type.faculty_profile
+id: node.faculty_profile.field_areas_of_interest
+field_name: field_areas_of_interest
+entity_type: node
+bundle: faculty_profile
+label: 'Areas of Interest'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

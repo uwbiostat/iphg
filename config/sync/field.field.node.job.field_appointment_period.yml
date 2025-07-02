@@ -1,0 +1,21 @@
+uuid: c18e42e5-18a7-46cc-b7df-5799afd097b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_appointment_period
+    - node.type.job
+  module:
+    - datetime_range
+id: node.job.field_appointment_period
+field_name: field_appointment_period
+entity_type: node
+bundle: job
+label: 'Appointment Period'
+description: 'Start and end date of the appointment'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

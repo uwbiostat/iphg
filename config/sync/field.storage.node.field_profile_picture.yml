@@ -1,0 +1,30 @@
+uuid: 36a620d5-7bf7-483f-af17-9da6a2826179
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_profile_picture
+field_name: field_profile_picture
+entity_type: node
+type: image
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  default_image:
+    uuid: 8c2089f3-9f24-452e-83bc-149375d6fe4a
+    alt: ''
+    title: ''
+    width: 120
+    height: 144
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

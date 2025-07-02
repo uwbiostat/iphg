@@ -1,0 +1,21 @@
+uuid: 2e746576-d5d7-4ce6-80ce-ac66431a5800
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_quarter_offered
+    - node.type.course_page
+  module:
+    - options
+id: node.course_page.field_quarter_offered
+field_name: field_quarter_offered
+entity_type: node
+bundle: course_page
+label: 'Quarter(s) Offered'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

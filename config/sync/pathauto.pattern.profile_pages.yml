@@ -1,0 +1,22 @@
+uuid: c0757bf5-4ad4-4c4b-b3a9-36d6cc7f42c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: profile_pages
+label: 'Profile Pages'
+type: 'canonical_entities:node'
+pattern: 'profile/[node:title][node:field_faculty_first_name]'
+selection_criteria:
+  dce9f2cd-27e0-401b-90ca-91e03b6a108d:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: dce9f2cd-27e0-401b-90ca-91e03b6a108d
+    context_mapping:
+      node: node
+    bundles:
+      faculty_profile: faculty_profile
+selection_logic: and
+weight: -5
+relationships: {  }

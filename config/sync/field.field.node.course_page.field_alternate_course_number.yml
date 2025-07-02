@@ -1,0 +1,19 @@
+uuid: 40b634fd-6944-4a01-b741-b399c725a0f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alternate_course_number
+    - node.type.course_page
+id: node.course_page.field_alternate_course_number
+field_name: field_alternate_course_number
+entity_type: node
+bundle: course_page
+label: 'Alternate Course Number'
+description: "Example: EPI 517<br />\r\nDO NOT list PHG course number in this field."
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

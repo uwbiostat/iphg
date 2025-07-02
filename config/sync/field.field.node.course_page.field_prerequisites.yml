@@ -1,0 +1,21 @@
+uuid: d4dc24d4-3cfc-4aab-92ee-3062f72c3eb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_prerequisites
+    - node.type.course_page
+  module:
+    - text
+id: node.course_page.field_prerequisites
+field_name: field_prerequisites
+entity_type: node
+bundle: course_page
+label: Prerequisites
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

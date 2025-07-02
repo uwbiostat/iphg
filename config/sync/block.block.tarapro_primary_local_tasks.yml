@@ -1,0 +1,22 @@
+uuid: 8cf8c3f3-0b38-4090-8aa3-ff2876bad6d6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tarapro
+_core:
+  default_config_hash: ACjBZI5shAMiiUpsz-inLYVXDqNNXRnSzAWV3kV_8Hw
+id: tarapro_primary_local_tasks
+theme: tarapro
+region: header_top
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

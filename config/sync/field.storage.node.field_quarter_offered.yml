@@ -1,0 +1,33 @@
+uuid: 93ae4b40-8127-44ca-8537-35a6acfaaf34
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_quarter_offered
+field_name: field_quarter_offered
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Autumn
+      label: Autumn
+    -
+      value: Winter
+      label: Winter
+    -
+      value: Spring
+      label: Spring
+    -
+      value: Summer
+      label: Summer
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

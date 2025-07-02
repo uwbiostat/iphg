@@ -1,0 +1,30 @@
+uuid: a8d01f99-e64b-4165-92a5-39ecea18c1cc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:21b92bfb-76dd-4051-ac61-eb6e2edf426a'
+  module:
+    - block_content
+    - system
+  theme:
+    - taracustom
+id: taracustom_studentprofiles
+theme: taracustom
+region: content_top
+weight: 0
+provider: null
+plugin: 'block_content:21b92bfb-76dd-4051-ac61-eb6e2edf426a'
+settings:
+  id: 'block_content:21b92bfb-76dd-4051-ac61-eb6e2edf426a'
+  label: 'Student Profiles'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /students
