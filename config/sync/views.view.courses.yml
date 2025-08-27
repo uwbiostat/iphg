@@ -102,7 +102,7 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: field
-          label: ''
+          label: Course
           exclude: false
           alter:
             alter_text: true
