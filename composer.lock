@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "baa1ae8661e8ad0eddd1bcd5bdb07d5f",
+    "content-hash": "53ca0c507494335c9ab5161bbaa10bba",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2204,26 +2204,26 @@
         },
         {
             "name": "drupal/toc_api",
-            "version": "2.0.1",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/toc_api.git",
-                "reference": "2.0.1"
+                "reference": "2.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/toc_api-2.0.1.zip",
-                "reference": "2.0.1",
-                "shasum": "205ac0be180245961ef6066ff2d1a33bfac47833"
+                "url": "https://ftp.drupal.org/files/projects/toc_api-2.0.0.zip",
+                "reference": "2.0.0",
+                "shasum": "48e0132a9ad84b9f9e1aa44507eac2b9d564a3f5"
             },
             "require": {
-                "drupal/core": "^10.4 || ^11.1"
+                "drupal/core": "^10.3 || ^11.0"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.0.1",
-                    "datestamp": "1760575753",
+                    "version": "2.0.0",
+                    "datestamp": "1743697492",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
