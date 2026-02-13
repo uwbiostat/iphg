@@ -9,5 +9,5 @@ fetch:
   timeout: 30
 notification:
   emails:
-    - prosser@uw.edu
+    - aglamb@uw.edu
   threshold: security
