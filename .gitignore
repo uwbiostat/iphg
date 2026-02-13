@@ -1,0 +1,45 @@
+# Composer-managed dependencies (rebuilt by CI)
+vendor/
+web/core/
+web/modules/contrib/
+web/themes/contrib/
+web/libraries/
+
+# Drupal scaffold files (rebuilt by composer install)
+web/index.php
+web/update.php
+web/autoload.php
+web/robots.txt
+web/web.config
+web/INSTALL.txt
+web/README.md
+web/example.gitignore
+web/favicon.ico
+web/.csslintrc
+web/.eslintignore
+web/.eslintrc.json
+web/.ht.router.php
+web/.htaccess
+
+# Keep custom modules and themes (override the broad ignores above)
+!web/modules/custom/
+!web/themes/custom/
+
+# User uploads
+web/sites/default/files/
+
+# Local settings
+web/sites/default/settings.local.php
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Backups
+*.bak
+*.swp
+
+# ddev
+.ddev/
+*.sql
