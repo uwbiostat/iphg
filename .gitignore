@@ -42,4 +42,8 @@ web/sites/default/settings.local.php
 
 # ddev
 .ddev/
+
+# Ancillary
+*.tar.gz
+*.gz
 *.sql
