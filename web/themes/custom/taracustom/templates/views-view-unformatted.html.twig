@@ -1,0 +1,34 @@
+{#
+/**
+ * @file
+ * Override of stable9's views-view-unformatted.html.twig.
+ *
+ * Core hardcodes grouping titles as <h3>. This drops the forced heading so the
+ * grouping field's own markup (Views: field > Style settings > Customize field
+ * HTML, with "Use rendered output to group rows" enabled) decides the element.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ */
+#}
+{% if title %}
+  <div class="views-group-title">{{ title }}</div>
+{% endif %}
+{% for row in rows %}
+  {%
+    set row_classes = [
+      default_row_class ? 'views-row',
+    ]
+  %}
+  <div{{ row.attributes.addClass(row_classes) }}>
+    {{- row.content -}}
+  </div>
+{% endfor %}

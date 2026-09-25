@@ -45,6 +45,7 @@ div.faculty_profile_aoi{
  text-decoration: none;
 }
 .view-profile-directory h2{
+ clear: both;
  margin-bottom: 0px;
  padding-bottom: 0px;
  font-size: 1.7em;
@@ -102,4 +103,10 @@ div.alumni-profiles .faculty_profile_aoi{
 .path-students .view-profile-directory div.faculty_profile_fields{
  width: 50%;
  font-size: .9em;
+}
+
+.view-profile-directory .views-group-title h2 {
+    margin-left: 0;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
 }
