@@ -1,0 +1,23 @@
+uuid: dc68ecfb-6e3c-4c05-9484-4f828ac90383
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_faculty_type
+    - node.type.faculty_profile
+  module:
+    - options
+id: node.faculty_profile.field_faculty_type
+field_name: field_faculty_type
+entity_type: node
+bundle: faculty_profile
+label: 'Faculty Type'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: core
+default_value_callback: ''
+settings: {  }
+field_type: list_string

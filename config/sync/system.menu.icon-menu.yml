@@ -1,0 +1,8 @@
+uuid: 15d86685-d88a-4f37-bbca-a1378fed78c2
+langcode: en
+status: true
+dependencies: {  }
+id: icon-menu
+label: 'Icon Menu'
+description: ''
+locked: false

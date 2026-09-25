@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.faculty_profile.field_education
     - field.field.node.faculty_profile.field_email_address
     - field.field.node.faculty_profile.field_faculty_first_name
+    - field.field.node.faculty_profile.field_faculty_type
     - field.field.node.faculty_profile.field_professional_title
     - field.field.node.faculty_profile.field_profile_picture
     - field.field.node.faculty_profile.field_profile_type
@@ -40,6 +41,7 @@ hidden:
   field_education: true
   field_email_address: true
   field_faculty_first_name: true
+  field_faculty_type: true
   field_professional_title: true
   field_profile_picture: true
   field_profile_type: true

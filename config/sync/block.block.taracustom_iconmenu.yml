@@ -1,0 +1,39 @@
+uuid: 91bedffb-1864-484c-a206-77769033b141
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.icon-menu
+  module:
+    - menu_block
+    - system
+  theme:
+    - taracustom
+id: taracustom_iconmenu
+theme: taracustom
+region: content_top
+weight: 0
+provider: null
+plugin: 'menu_block:icon-menu'
+settings:
+  id: 'menu_block:icon-menu'
+  label: 'Icon Menu'
+  label_display: '0'
+  provider: menu_block
+  follow: false
+  follow_parent: child
+  display_empty: false
+  label_link: false
+  label_type: block
+  level: 1
+  depth: 1
+  expand_all_items: false
+  parent: 'icon-menu:'
+  render_parent: false
+  suggestion: icon_menu
+  hide_on_nonactive: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
