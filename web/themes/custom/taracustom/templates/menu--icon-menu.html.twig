@@ -1,0 +1,28 @@
+{#
+/**
+ * @file
+ * Theme override for the Icon Menu, styled like the SPH homepage highlight menu.
+ *
+ * Icons come from the simple_menu_icons module, which stores the uploaded
+ * file in the link options (menu_icon.uri). The icon is drawn as a CSS mask so
+ * it can be recolored on hover. The list deliberately avoids the "menu" class
+ * so the module's own background-image CSS doesn't also apply.
+ *
+ * Only top-level items are rendered.
+ */
+#}
+{% if items %}
+  <ul{{ attributes.addClass('icon-menu') }}>
+    {% for item in items %}
+      {% set icon_uri = item.original_link.options.menu_icon.uri ?? null %}
+      <li{{ item.attributes.addClass('icon-menu__item', item.in_active_trail ? 'active') }}>
+        <a href="{{ item.url }}" class="icon-menu__link">
+          {% if icon_uri %}
+            <span class="icon-menu__icon" style="--icon: url('{{ file_url(icon_uri) }}');" aria-hidden="true"></span>
+          {% endif %}
+          <span class="icon-menu__title">{{ item.title }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

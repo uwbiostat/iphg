@@ -110,3 +110,67 @@ div.alumni-profiles .faculty_profile_aoi{
     margin-bottom: 1rem;
     text-transform: uppercase;
 }
+
+/* Icon Menu (simple_menu_icons), modeled on the SPH homepage highlight menu. */
+ul.icon-menu {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ margin: 0 0 30px;
+ padding: 0;
+ list-style: none;
+}
+ul.icon-menu li.icon-menu__item {
+ flex: 0 1 12rem;
+ margin: 0;
+ padding: 0;
+}
+ul.icon-menu a.icon-menu__link {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin: 25px 0 30px;
+ padding: 0 10px;
+ border-right: 1px solid #d9d9d9;
+ color: var(--purple, #4b2e83);
+ font-family: "Encode Sans", "Open Sans", "Arial", sans-serif;
+ font-size: .85rem;
+ font-weight: 800;
+ line-height: 1.3;
+ text-align: center;
+ text-decoration: none;
+ background: none;
+}
+/* Beat theme.css "#main-wrapper a" (dotted underline, link color). */
+#main-wrapper ul.icon-menu a.icon-menu__link {
+ border-bottom: 0;
+ color: var(--purple, #4b2e83);
+}
+ul.icon-menu li.icon-menu__item:first-child a.icon-menu__link {
+ border-left: 1px solid #d9d9d9;
+}
+ul.icon-menu .icon-menu__icon {
+ display: block;
+ width: 42px;
+ height: 34px;
+ margin-bottom: 12px;
+ background-color: #707070;
+ -webkit-mask: var(--icon) no-repeat center / contain;
+ mask: var(--icon) no-repeat center / contain;
+ transition: transform .1s ease-in-out, background-color .1s ease-in-out;
+}
+ul.icon-menu a.icon-menu__link:hover .icon-menu__icon,
+ul.icon-menu a.icon-menu__link:focus .icon-menu__icon,
+ul.icon-menu li.active .icon-menu__icon {
+ background-color: var(--purple, #4b2e83);
+ transform: scale(1.15);
+}
+ul.icon-menu a.icon-menu__link:hover .icon-menu__title,
+ul.icon-menu a.icon-menu__link:focus .icon-menu__title {
+ text-decoration: underline;
+}
+@media (max-width: 575px) {
+ ul.icon-menu li.icon-menu__item {
+  flex-basis: 33%;
+ }
+}

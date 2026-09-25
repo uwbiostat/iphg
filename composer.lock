@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4e62f0a6dd99d1a787876521de34099b",
+    "content-hash": "3f54481aa57590d9d857cbd553f5cd7d",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2229,6 +2229,74 @@
                 "source": "https://cgit.drupalcode.org/pathauto",
                 "issues": "https://www.drupal.org/project/issues/pathauto",
                 "documentation": "https://www.drupal.org/docs/8/modules/pathauto"
+            }
+        },
+        {
+            "name": "drupal/simple_menu_icons",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/simple_menu_icons.git",
+                "reference": "3.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/simple_menu_icons-3.1.0.zip",
+                "reference": "3.1.0",
+                "shasum": "444cabe6dfeca22239cc8e97fbfb1b75d6966a55"
+            },
+            "require": {
+                "drupal/core": "^10 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.1.0",
+                    "datestamp": "1747988002",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "arpieb",
+                    "homepage": "https://www.drupal.org/user/533416"
+                },
+                {
+                    "name": "mcrittenden",
+                    "homepage": "https://www.drupal.org/user/420631"
+                },
+                {
+                    "name": "mrkdboyd",
+                    "homepage": "https://www.drupal.org/user/2913445"
+                },
+                {
+                    "name": "pifagor",
+                    "homepage": "https://www.drupal.org/user/2375692"
+                },
+                {
+                    "name": "podarok",
+                    "homepage": "https://www.drupal.org/user/116002"
+                },
+                {
+                    "name": "pschuelke",
+                    "homepage": "https://www.drupal.org/user/1801342"
+                },
+                {
+                    "name": "tobby",
+                    "homepage": "https://www.drupal.org/user/154797"
+                }
+            ],
+            "description": "Associates icons with menu items",
+            "homepage": "https://www.drupal.org/project/simple_menu_icons",
+            "support": {
+                "source": "https://git.drupalcode.org/project/simple_menu_icons"
             }
         },
         {
