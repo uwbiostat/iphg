@@ -31,7 +31,8 @@
         "drupal/pathauto": "^1.11",
         "drupal/toc_api": "^2.0",
         "drupal/toc_filter": "^2.1",
-        "drush/drush": "^12.4"
+        "drush/drush": "^12.4",
+        "twig/twig": "3.28.*"
     },
     "conflict": {
         "drupal/drupal": "*"
