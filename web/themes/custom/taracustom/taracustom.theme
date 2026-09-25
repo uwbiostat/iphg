@@ -16,6 +16,22 @@ function taracustom_preprocess_html(&$variables) {
   if (is_object($node)) {
     $variables['attributes']['class'][] = 'nid-' . $node->id();
   }
+
+  // TaraPro preprocess reads slider settings from the parent theme only.
+  $variables['slider_show'] = theme_get_setting('slider_show', 'taracustom');
+  $variables['slider_time'] = theme_get_setting('slider_time', 'taracustom');
+  $variables['slider_animateout'] = theme_get_setting('slider_animateout', 'taracustom');
+  $variables['slider_animatein'] = theme_get_setting('slider_animatein', 'taracustom');
+  $variables['slider_dots'] = theme_get_setting('slider_dots', 'taracustom');
+}
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function taracustom_preprocess_page(array &$variables) {
+  // Use this subtheme's slider markup, not tarapro.settings.
+  $variables['slider_show'] = theme_get_setting('slider_show', 'taracustom');
+  $variables['slider_code'] = theme_get_setting('slider_code', 'taracustom');
 }
 
 /**

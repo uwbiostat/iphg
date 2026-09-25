@@ -167,6 +167,30 @@ th{
  font-size: 1.25em;
 }
 
+/*
+ * Hero slideshow height.
+ * Parent theme (tarapro/css/slider.css) sets #slider, .home-slider,
+ * .owl-stage-outer, .slider-item, .slider-img, img, and .slider-text-container
+ * to 100vh, which hides page content on first load. Subtract header space
+ * plus a peek so homepage content is visible below the slides.
+ */
+:root {
+  --hero-height: calc(100svh - 16rem);
+}
+
+#slider,
+.home-slider {
+  min-height: var(--hero-height);
+}
+
+.home-slider .owl-stage-outer,
+.slider-item,
+.slider-img,
+.slider-img img,
+.slider-text-container {
+  height: var(--hero-height);
+}
+
 .layer1, .layer2{
  background: var(--purple);
 /*    background-color: rgba(15, 17, 42,.5); */
