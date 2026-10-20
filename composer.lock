@@ -1852,17 +1852,17 @@
         },
         {
             "name": "drupal/gin",
-            "version": "4.1.3",
+            "version": "4.1.4",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/gin.git",
-                "reference": "4.1.3"
+                "reference": "4.1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/gin-4.1.3.zip",
-                "reference": "4.1.3",
-                "shasum": "20fa50955fd6ea65cc8d23dbd98a3bf87b853431"
+                "url": "https://ftp.drupal.org/files/projects/gin-4.1.4.zip",
+                "reference": "4.1.4",
+                "shasum": "3dcb347e61f29981dcf2afdcdc9860851d6eee66"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11 <11.2",
@@ -1871,8 +1871,8 @@
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "4.1.3",
-                    "datestamp": "1768553545",
+                    "version": "4.1.4",
+                    "datestamp": "1791998624",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2234,26 +2234,26 @@
         },
         {
             "name": "drupal/simple_menu_icons",
-            "version": "3.1.0",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/simple_menu_icons.git",
-                "reference": "3.1.0"
+                "reference": "3.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/simple_menu_icons-3.1.0.zip",
-                "reference": "3.1.0",
-                "shasum": "444cabe6dfeca22239cc8e97fbfb1b75d6966a55"
+                "url": "https://ftp.drupal.org/files/projects/simple_menu_icons-3.2.0.zip",
+                "reference": "3.2.0",
+                "shasum": "293a8197df1de848039a874051118f005a5b4809"
             },
             "require": {
-                "drupal/core": "^10 || ^11"
+                "drupal/core": "^10 || ^11 || ^12"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "3.1.0",
-                    "datestamp": "1747988002",
+                    "version": "3.2.0",
+                    "datestamp": "1791471885",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2297,7 +2297,8 @@
             "description": "Associates icons with menu items",
             "homepage": "https://www.drupal.org/project/simple_menu_icons",
             "support": {
-                "source": "https://git.drupalcode.org/project/simple_menu_icons"
+                "source": "https://git.drupalcode.org/project/simple_menu_icons",
+                "issues": "https://www.drupal.org/project/issues/simple_menu_icons"
             }
         },
         {
