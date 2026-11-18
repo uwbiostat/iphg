@@ -3,7 +3,7 @@ type: theme
 base theme: stable9
 description: 'TaraPro is light weight multipurpose premium drupal 8, 9 and 10 theme by <a href="https://drupar.com" target="_blank">Drupar.com</a>'
 package: Drupar
-core_version_requirement: ^9.3 || ^10
+core_version_requirement: ^10 || ^11
 version: 10.1.1
 # Libraries
 libraries:

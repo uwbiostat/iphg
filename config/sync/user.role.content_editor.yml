@@ -24,7 +24,6 @@ dependencies:
     - taxonomy
     - toc_api
     - toolbar
-    - tour
 _core:
   default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
 id: content_editor
@@ -42,7 +41,6 @@ permissions:
   - 'access site reports'
   - 'access taxonomy overview'
   - 'access toolbar'
-  - 'access tour'
   - 'access user profiles'
   - 'administer account settings'
   - 'administer blocks'

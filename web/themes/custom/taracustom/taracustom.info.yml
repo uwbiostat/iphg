@@ -1,7 +1,7 @@
 name: Taracustom
 type: theme
 description: This is a subtheme of tarapro, customized for IPHG
-core_version_requirement: ^9.3 || ^10
+core_version_requirement: ^10 || ^11
 base theme: tarapro
 libraries:
   - taracustom/global-styling
