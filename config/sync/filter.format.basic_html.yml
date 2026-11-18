@@ -35,7 +35,7 @@ filters:
     status: true
     weight: -10
     settings:
-      allowed_html: '<a id target rel class="ck-anchor" name hreflang href> <br> <p> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <cite> <dl> <dt> <dd> <blockquote cite> <ul type> <ol start type> <strong> <em> <code> <li> <hr> <table> <tr> <td rowspan colspan> <th rowspan colspan> <thead> <tbody> <tfoot> <caption> <img src alt height width data-entity-uuid data-entity-type data-caption data-align>'
+      allowed_html: '<a id target rel class="ck-anchor" name hreflang href> <br> <p> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <cite> <dl> <dt> <dd> <blockquote cite> <ul type> <ol start type> <strong> <em> <code> <li> <hr> <table> <tr> <td rowspan colspan> <th rowspan colspan> <thead> <tbody> <tfoot> <caption> <img src alt height width data-entity-uuid data-entity-type data-caption data-align> <a name>'
       filter_html_help: false
       filter_html_nofollow: false
   filter_html_image_secure:
@@ -58,5 +58,5 @@ filters:
     settings:
       type: default
       auto: ''
-      block: '0'
-      exclude_above: '0'
+      block: false
+      exclude_above: false

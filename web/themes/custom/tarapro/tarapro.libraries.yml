@@ -9,6 +9,7 @@ global-styling:
     theme:
       css/style.css: {}
   js:
+    js/jquery4-compat.js: {}
     js/slider.js: {}
     js/viewportchecker.js: {}
     js/cookiealert.js: {}
